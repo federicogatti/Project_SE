@@ -44,7 +44,7 @@ sig Zone{
 }
 
 sig Location{
-	zone : lone Zone,
+	zone : one Zone,
 }
 
 sig AuthenticatedPassenger extends Passenger{}
